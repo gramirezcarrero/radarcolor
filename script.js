@@ -8,8 +8,7 @@ xhr.addEventListener("readystatechange", function () {
     console.log(this.responseText);
   }
 });
-
-xhr.open("GET", "http://colormind.io/api/");
+xhr.open("GET", "https://www.colourlovers.com/api/palettes/random?format=json");
 
 xhr.send(data);
 
